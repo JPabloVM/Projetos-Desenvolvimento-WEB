@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 de ago de 2022, 11:04:30
+    Author     : João Pablo
+*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-size: 100%;
+    font-family: Arial,Helvetica,sans-serif;
+    overflow: hidden;
+    background-image: url(../img/PlanoFundoLogin.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    text-align: center;
+    background: rgba(0,90,70,.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    color: white;
+}
+
+form h1{
+    margin-bottom: 30px; 
+}
+
+input{
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
+    padding: 12px;
+}
+
+.botaoLogin{
+    background-color: rgb(0,90,70);
+    border: none;
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;             
+}
+

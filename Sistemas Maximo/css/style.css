@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 de ago de 2022, 15:30:40
+    Author     : João Pablo
+*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+body{
+    font-family: "Arial", Helvetica, sans-serif;
+    background-image: url(../img/PlanoFundoHome.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Titulo h2{ 
+    padding-top: 10px;
+    text-align: center;
+}
+
+.container{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 940px;
+}
+
+.painel{
+    margin: 10px auto;
+    padding: 20px 10px 10px 20px ;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 4px #999;
+    background-color: rgba(255,255,255,0.5);
+}
+.painel li{
+    padding: 10px;
+    text-align: center;
+
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    margin: 2px;
+    padding-bottom: 10px;
+
+}
+
+.painel a{
+
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+

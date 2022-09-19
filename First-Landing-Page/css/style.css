@@ -38,7 +38,7 @@ background: var(--white);
 
 .logo span{
     color: var(--dark);
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .navegacao ul{
@@ -48,3 +48,5 @@ background: var(--white);
 .navegacao li{
     padding: 0 18px;
 }
+
+.

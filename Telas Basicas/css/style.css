@@ -1,0 +1,14 @@
+.area-login {
+    clear: left;
+    padding: 10% 40%;
+
+}
+
+form {
+    width: 350px;
+    height: 350px;
+    padding-top: 50%;
+    text-align: center;
+    box-shadow: 0 0.1rem 0.5rem yellow;
+    border-radius: 15px;
+}

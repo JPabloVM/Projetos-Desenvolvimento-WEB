@@ -1,14 +1,47 @@
 .area-login {
-    clear: left;
-    padding: 10% 40%;
-
+    width: 100%;
+    padding-top: 10%;
 }
 
 form {
+    margin: auto;
     width: 350px;
-    height: 350px;
-    padding-top: 50%;
-    text-align: center;
+    height: 300px;
     box-shadow: 0 0.1rem 0.5rem yellow;
     border-radius: 15px;
+    padding-top: 50px;
+    background-image: linear-gradient(355deg, #eeb579 0, #e6b875 3.33%, #ddbc74 6.67%, #d4bf73 10%, #cac275 13.33%, #bfc577 16.67%, #b5c87b 20%, #a9ca81 23.33%, #9ecd87 26.67%, #92ce8f 30%, #86d097 33.33%, #79d1a1 36.67%, #6cd3aa 40%, #5ed3b4 43.33%, #50d4bf 46.67%, #42d4c9 50%, #34d4d3 53.33%, #26d3dd 56.67%, #1ed3e6 60%, #20d2ef 63.33%, #2bd0f6 66.67%, #3bcffd 70%, #4ccdff 73.33%, #5ecaff 76.67%, #70c8ff 80%, #81c5ff 83.33%, #92c1ff 86.67%, #a2beff 90%, #b2baff 93.33%, #c0b7ff 96.67%, #cdb3fd 100%);
+
+}
+
+.area-login h1,
+p {
+    text-align: center;
+}
+
+.area-login :hover::placeholder {
+    transition: 0.5s;
+    font-size: 8px;
+    float: left;
+}
+
+.area-login input {
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.area-login button {
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: aqua;
+    font-size: 20px;
+
+}
+
+.area-login button:hover {
+    transition: 0.4s;
+    box-shadow: 0 0.1rem 1rem aqua;
+    
 }
